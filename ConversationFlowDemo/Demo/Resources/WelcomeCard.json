@@ -1,0 +1,44 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": 
+  [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://yt3.ggpht.com/a-/AAuE7mAiTZoXMXh_ZVXXp-TyOjF2OFj7qyXdyh3Z9A=s900-mo-c-c0xffffffff-rj-k-no",
+              "size": "medium",
+              "style": "default"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Techorama",
+              "weight": "bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "spacing": "none",
+              "text": "Welcome to the feedback bot!",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
